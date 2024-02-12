@@ -150,3 +150,68 @@ footer{
     background: #002C7C;
 }
 /* Footer section end */
+@media screen  and (max-width:992px) {
+    header{
+        padding:10px;
+    }
+    header h2{
+        font-size: 20px;
+    }
+    .banner{
+        padding: 10px;
+    }
+    .feature{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .feature div img,
+    .feature div p{
+        margin-left: -60%;
+    }
+    .feature div h2{
+        margin: 0px;
+        
+    }
+    .about{
+        padding: 20px;
+    }
+    .service{
+        padding: 10px;
+    }
+    .service .upper,
+    .service .lower{
+        flex-direction: column;
+    }
+    .service image{
+        width: auto;
+    }
+    .service .content{
+        width: auto;
+        padding-left:auto;
+    }
+}
+@media screen  and (max-width :768px){
+    .header h2{
+        font-size: 14px;
+    }
+    .header h2 span{
+        font-size: 10px;
+        text-wrap: nowrap;
+    }
+    .banner{
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .banner h1{
+        font-size: 30px;
+        margin-bottom: 15;
+    }
+    .banner h1 span{
+        font-size: 42px;
+    }
+        
+    
+    
+}
